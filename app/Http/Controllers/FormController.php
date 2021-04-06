@@ -29,10 +29,7 @@ class FormController extends Controller
                 'phone' => $phone,
                 'UF' => $UF,
                 'city' => $city,
-                'bus_father' => $bus_father,
-                'created_at' =>  Carbon::now(),
-                'updated_at' => Carbon::now()
-
+                'bus_father' => $bus_father
             ]);
             return view('/form')->with(compact('response','data'));
         } else {
