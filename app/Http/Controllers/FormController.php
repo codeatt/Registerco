@@ -31,7 +31,7 @@ class FormController extends Controller
                 'city' => $city,
                 'bus_father' => $bus_father
             ]);
-            return view('/form')->with(compact('response','data'));
+            return view('/form')->with(compact('response'));
         } else {
             return view('/form');
         }
