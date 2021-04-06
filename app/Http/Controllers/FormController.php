@@ -15,7 +15,7 @@ class FormController extends Controller
         $phone = $request->input('phone',null);
         $UF = $request->input('UF',null);
         $city = $request->input('city',null);
-        $bus_father = $request->input('city','example');
+        $bus_father = $request->input('bus_father','example');
 //        $data = $request->validate([
 //            'fullname' => 'required|max:255',
 //            'phone' => 'required|unique|min:11|numeric|regex:/(01)[0-9]{9}/',
