@@ -30,8 +30,8 @@ class FormController extends Controller
                 'UF' => $UF,
                 'city' => $city,
                 'bus_father' => $bus_father,
-                'created_at' =>  Carbon::now(), # new \Datetime() or date('Y-m-d H:i:s'),
-                'updated_at' => Carbon::now(), # new \Datetime() or date('Y-m-d H:i:s')
+                'created_at' =>  Carbon::now(),
+                'updated_at' => Carbon::now()
 
             ]);
             return view('/form')->with(compact('response','data'));
