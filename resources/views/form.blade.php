@@ -63,7 +63,7 @@
                         @error('UF')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                         @enderror
-                        <select class="dropdown-menus" aria-labelledby="dropdownMenuButton" name="city" selected="phone">
+                        <select class="dropdown-menus" aria-labelledby="dropdownMenuButton" name="city">
                             <option class="dropdown-item" name="riobranco" value="riobranco" >Rio Branco</option>
                             <option class="dropdown-item" name="macapa" value="macapa" >Macapa</option>
                             <option class="dropdown-item" name="belem" value="belem" >Belem</option>
